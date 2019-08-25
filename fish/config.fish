@@ -1,4 +1,3 @@
-#export "PHANTOMJS_BIN=`which phantomjs`"
 set -x EDITOR vim
 # https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
 set -x NPM_PACKAGES "{$HOME}/.npm-packages"
