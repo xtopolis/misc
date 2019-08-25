@@ -1,6 +1,5 @@
 #export "PHANTOMJS_BIN=`which phantomjs`"
 set -x EDITOR vim
-set -x GITHUB_HOST github.intuit.com
 # https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
 set -x NPM_PACKAGES "{$HOME}/.npm-packages"
 
@@ -16,12 +15,6 @@ alias gds="git diff --staged";
 alias gl="git log --pretty=format:'%C(cyan)%h%Creset %C(yellow)%ad %C(white)%<|(80,trunc)%s %Creset%Cgreen(%ar) %C(yellow dim)<%an>%Creset' --abbrev-commit --date=short"
 
 alias vscode="open -a Visual\ Studio\ Code"
-alias grunt="./node_modules/.bin/grunt"
-alias "http-server"="http-server -S -C ~/.localhost-ssl/cert.pem -K ~/.localhost-ssl/key.pem"
-alias csgo="open -a Steam --args -tcp"
-
-#set default jdk version
-setjdk 1.8
 
 # GIT CONFIGS USED WITH DIFF-SO-PRETTY
 ######################################
