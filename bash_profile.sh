@@ -7,7 +7,12 @@ alias ga="git add";
 alias go="git checkout";
 alias gc="git commit";
 alias gb="git branch";
-alias gl="git log --pretty=format:'%C(cyan)%h%Creset %C(yellow)%ad %C(white)%<|(80,trunc)%s %Creset%Cgreen(%ar) %C(y    ellow dim)<%an>%Creset' --abbrev-commit --date=short"o
+alias gbb="git branch --sort=-committerdate"
+alias gba="git branch --sort=committerdate"
+alias gd="git diff";
+alias gds="git diff --staged";
+alias gl="git log --pretty=format:'%C(cyan)%h%Creset %C(yellow)%ad %C(white)%<|(80,trunc)%s %Creset%Cgreen(%ar) %C(yellow dim)<%an>%Creset' --abbrev-commit --date=short"
+alias gpp="git push -u origin (git branch | grep \* | cut -d ' ' -f2)"
 
 alias vscode="open -a Visual\ Studio\ Code"
 alias grunt="./node_modules/.bin/grunt"
